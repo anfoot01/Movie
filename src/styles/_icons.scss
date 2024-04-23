@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('src/assets/fonts/icomoon.woff?l332cq') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow:before {
+  content: "\e900";
+}
+.icon-bell:before {
+  content: "\e901";
+}
+.icon-calendar:before {
+  content: "\e902";
+}
+.icon-film:before {
+  content: "\e903";
+}
+.icon-heart:before {
+  content: "\e904";
+}
+.icon-heart-1:before {
+  content: "\e905";
+  color: #6100c2;
+}
+.icon-log-out:before {
+  content: "\e906";
+}
+.icon-maximize:before {
+  content: "\e907";
+}
+.icon-message-circle:before {
+  content: "\e908";
+}
+.icon-pause:before {
+  content: "\e909";
+}
+.icon-play:before {
+  content: "\e90a";
+  color: #6100c2;
+}
+.icon-search:before {
+  content: "\e90b";
+}
+.icon-sliders:before {
+  content: "\e90c";
+}
+.icon-sliders-1:before {
+  content: "\e90d";
+}
+.icon-trending-up:before {
+  content: "\e90e";
+}
+.icon-users:before {
+  content: "\e90f";
+}
+.icon-volume-2:before {
+  content: "\e910";
+}

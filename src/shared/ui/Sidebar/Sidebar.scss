@@ -1,0 +1,65 @@
+.sidebar {
+	padding: 40px;
+	background: #21201E;
+	height: 100%;
+	min-width: 274px;
+	box-shadow: 2px 0px 90px rgba(97, 0, 194, 0.4);
+
+	&__nav {
+		display: flex;
+		flex-direction: column;
+		gap: 35px;
+		margin-top: 62px;
+		color: rgb(255, 255, 255);
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 24px;
+		&__link{
+			display: flex;
+			align-items: center;
+			gap: 12px;
+			transition:.2s all ease-in-out;
+		}
+		&__link:hover{
+			font-weight: 700;
+		}
+	}
+	&__news {
+		display: flex;
+		flex-direction: column;
+		gap: 33px;
+		margin-top: 122px;
+		color: rgb(255, 255, 255);
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 24px;
+		&__link{
+			display: flex;
+			align-items: center;
+			gap: 12px;
+			transition:.2s all ease-in-out;
+		}
+		&__link:hover{
+			font-weight: 700;
+		}
+	}
+	&__settings {
+		display: flex;
+		flex-direction: column;
+		gap: 23px;
+		margin-top: 257px;
+		color: rgb(255, 255, 255);
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 24px;
+		&__link{
+			display: flex;
+			align-items: center;
+			gap: 12px;
+			transition:.2s all ease-in-out;
+		}
+		&__link:hover{
+			font-weight: 700;
+		}
+	}
+}

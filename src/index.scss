@@ -1,0 +1,18 @@
+@import 'styles/reset';
+@import 'styles/vars';
+@import 'styles/icons';
+@import 'styles/layout';
+
+
+// shared
+@import 'shared/ui/Sidebar/Sidebar.scss';
+@import 'shared/ui/Header/Header.scss';
+
+
+// pages
+@import 'pages/favorites/Favorites.scss';
+@import 'pages/trending/Trending.scss';
+
+.ml-auto {
+	margin-left: auto;
+}

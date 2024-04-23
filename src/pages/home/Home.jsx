@@ -11,7 +11,7 @@ export const Home = () => {
 			<Header></Header>
 			<div className="container-fav">
 			<div className="favorites">
-				<div className="title">Favourites</div>
+				<div className="title">HOME</div>
 				<div className="favorites-list">
 					{listItems}
 				</div>

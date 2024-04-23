@@ -4,7 +4,7 @@ export const inDevelopment = () => {
 
 	return (
 		<>
-			<h1></h1>
+			<h1>inDevelopment</h1>
 		</>
 	);
 };

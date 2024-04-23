@@ -22,9 +22,9 @@ export const AppRouter = () => {
 				</Route>
 				<Route element={<PrivateRoutes loggedIn={loggedIn} />}>
 					<Route index={true} path="/" element={<Login />} />
-					<Route index={true} path="/Favourites" element={<Favorites />} />
-					<Route index={true} path="/Trending" element={<Trending />} />
-					<Route index={true} path="/Home" element={<Home />} />
+					<Route index={true} path="/favourites" element={<Favorites />} />
+					<Route index={true} path="/trending" element={<Trending />} />
+					<Route index={true} path="/home" element={<Home />} />
 				</Route>
 			</Route>
 		)

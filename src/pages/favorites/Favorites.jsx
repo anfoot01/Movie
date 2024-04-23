@@ -1,4 +1,4 @@
-import { Header } from "../../shared/ui/Header/Header";
+import { Header } from "/src/shared/ui/Header/Header.jsx";
 import { Film } from "../../shared/ui/Film/Film";
 import { films } from "../../database/films";
 

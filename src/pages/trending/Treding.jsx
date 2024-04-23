@@ -14,7 +14,7 @@ export const Trending = () => {
 					{listItems}
 				</div>
 			</div>
-			<div className="main-trend">sjdhfgjksdhf</div>
+			<div className="main-trend"></div>
 		</>
 	);
 };

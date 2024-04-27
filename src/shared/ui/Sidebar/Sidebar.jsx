@@ -15,7 +15,7 @@ export const Sidebar = () => {
            </Link></div>
            
         <div className="link">
-          <img src="/src/assets/icons/heart.svg" alt="heart" />
+          <img src="/src/assets/icons/heart-white.svg" alt="heart" />
           <Link className="text-dec-none" to='/favourites'>
           Favourites
            </Link>

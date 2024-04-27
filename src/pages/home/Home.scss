@@ -1,0 +1,147 @@
+.home-bg {
+    background: url('/src/assets/home/Home-image.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.p-l {
+    padding-left: 32px;
+}
+
+.home {
+
+
+
+    &__card {
+        margin-top: 100px;
+        padding-bottom: 53px;
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 100%;
+        margin-bottom: 20px;
+    }
+
+    &__desc {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 143%;
+        margin-bottom: 20px;
+    }
+
+    &__btn-group {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+
+    }
+
+    &__btn {
+        border-radius: 14px;
+        padding: 17px 24px;
+        color: var(--white);
+        background: var(--purple);
+        border: 0;
+        color: rgb(255, 255, 255);
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+
+
+    &__fav {
+        border-radius: 14px;
+        padding: 15px 15px 11px 15px;
+        backdrop-filter: blur(20px);
+        background: linear-gradient(147deg, #fff 0%, #fff 100%);
+        border: 0;
+    }
+
+    &__trending-list {
+        margin-top: 16px;
+        padding-left: 32px;
+    }
+
+    &__content {
+        padding-left: 32px;
+
+    }
+
+    &__title-second {
+        color: rgb(255, 255, 255);
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        margin-top: 6px;
+        margin-bottom: 16px;
+    }
+}
+
+.continue-watching {
+    &__title {
+        color: rgb(255, 255, 255);
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        margin-bottom: 16px;
+        margin-top: 32px;
+    }
+
+    &__items {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        margin-bottom: 24px;
+    }
+    &__btn{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        border-radius: 8.3px;
+        backdrop-filter: blur(11.85px);
+        background: linear-gradient(146.63deg, rgb(255, 255, 255) -7.477%, rgba(255, 255, 255, 0) 280.644%);
+        padding: 9px 9px 7px 9px ; 
+        border: 0;
+        cursor: pointer;
+        &__img{
+            max-width: 14px;
+        }
+    }
+    &__item1 {
+        width: 343px;
+        height: 209px;
+        background: url('/src/assets/home/continue-watching1.png');
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+        border: 1px solid rgb(150, 150, 150);
+        position: relative;
+    }
+
+    &__item2 {
+        width: 343px;
+        height: 209px;
+        background: url('/src/assets/home/continue-watching2.png');
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+        border: 1px solid rgb(150, 150, 150);
+        position: relative;
+    }
+
+    &__item3 {
+        width: 343px;
+        height: 209px;
+        background: url('/src/assets/home/continue-watching3.png');
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+        border: 1px solid rgb(150, 150, 150);
+        position: relative;
+    }
+}

@@ -1,17 +1,19 @@
 .favorites-list {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(348px, 1fr));
-	
+
 }
 
 .title {
 	color: rgb(255, 255, 255);
-	font-size:16px;
-	font-weight: 400;
-	line-height: 24px;
+	font-family: Poppins;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 30px;
 	margin-bottom: 24px;
 }
-.container-fav{
+
+.container-fav {
 	margin-left: 32px;
-	
+
 }
